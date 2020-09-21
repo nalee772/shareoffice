@@ -1,0 +1,47 @@
+/*  로그인 폼*/
+.find_id_main {
+	margin: 180px 0;
+}
+
+/* 로그인창 컨테이너 (바깥 테두리부분) */
+.findId_container_main {
+	border: 2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+/* 비밀번호 찾기 */
+.findId_container_main_footer {
+	border: 2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+	margin: 1.3rem auto 0 auto;
+	float: center;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: #5858FA;
+}
+
+.find_id_main .findId_container_main-body label,
+.find_id_main .findId_container_main-body #findId_em_txt  {
+	margin-bottom: 0.55rem;
+}
+
+/* 로그인 버튼 */
+#FindId_btn {
+	background-color: #2ea44f;
+	border: none; display : block;
+	width: 100%;
+	text-align: center;
+	margin-top: 1.3rem;
+	font-weight: bold;
+	background-color: black;
+	opacity: 0.9;
+	display: block;
+}

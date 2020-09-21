@@ -1,0 +1,82 @@
+.update_main{
+	margin: 180px 0;
+}
+
+.userUpdate_container {
+	width: 600px;
+}
+
+.userUpdate_main_container_header {
+	text-align: center;
+	color:black;
+	font-size:30px;
+	line-height : 30px;
+	font-weight : bold;
+	margin-bottom: 1.3rem;
+}
+
+.userUpdate_main_container_main {
+	border-radius: 5px;
+	width: 600px;
+	margin: 0 auto;
+	color: black;
+	padding: 20px 20px 0 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.userUpdate_main_container_main label{
+	margin-bottom: 0.55rem;
+}
+
+.userUpdate_main_container_main input{
+	border:2px solid #f2f2f2;
+}
+
+.userUpdate_main_container_main .update_input {
+	margin-bottom: 0.55rem;
+}
+.userUpdate_main_container_main .check_box p {
+	margin-bottom: 0.55rem;
+}
+
+.userUpdate_menu_div1 {
+	display: flex;
+}
+
+/* 이메일 수신 동의 라디오 */
+.userUpdate_menu_div7 {
+	padding: 10px;
+	font-size: 13px;
+}
+
+/* SMS 수신 동의 라디오 */
+.userUpdate_menu_div8 {
+	padding: 10px;
+	font-size: 13px;
+}
+
+/* 회원탈퇴 버튼 */
+#userOut_btn {
+	width: 80px;
+	height: 40px;
+	font-size: 13px;
+	background-color: #B2BABB;
+	border:none;
+	margin-left: 30px;
+}
+
+/* 회원정보수정 버튼 */
+#userUpdate_btn {
+	border-color: rgba(27, 31, 35, .15);
+	display: block;
+	text-align: center;
+	margin-top: 1.3rem;;
+	font-weight: bold;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#userUpdate_checkPwd{
+	font-weight: none;
+}

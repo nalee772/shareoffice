@@ -1,0 +1,54 @@
+/*  탈퇴  폼*/
+.userOut_main{
+	margin: 180px 0;
+}
+
+
+/* 탈퇴  컨테이너 (바깥 테두리부분) */
+.userOut_container_main {
+	border: 1px solid #d8dee2;
+	border-radius: 5px;
+	width: 380px;
+    margin: 0 auto;
+    padding : 20px;
+    font-weight:bold;
+    color:black;
+  
+}
+
+.userOut_container_main .userOut_menu_div1 label{
+	margin-bottom: 0.55rem;
+}
+
+/* 탈퇴 컨테이너 (안쪽 로그인/비밀번호 텍스트 들어가는곳) */
+.userOut_container_main_body {
+	width: 100%;
+		
+	
+}
+
+.userOut_menu_div1{
+	margin-bottom:20px;
+}
+
+
+/* 로그인 버튼 */
+#userOut_btn2 {
+	color: #fff;
+	background-color: #2ea44f;
+	border-color: rgba(27, 31, 35, .15);
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 1.3rem;
+	font-weight:bold;
+	background-color:black;
+	opacity:0.9;
+}
+
+#checkPwd{
+
+margin-left: 10px;
+font-weight: none;
+
+}

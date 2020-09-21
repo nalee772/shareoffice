@@ -1,0 +1,70 @@
+/*  로그인 폼*/
+.login_main {
+	margin: 180px 0;
+}
+
+/* 로그인창 컨테이너 (바깥 테두리부분) */
+.login_container_main {
+	border: 2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+	margin: 30px auto 0 auto;
+	margin-top: 30px;
+	padding: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.login_container_main input {
+	border : 2px solid #f2f2f2;
+}
+
+/* 로그인창 라벨 간격 */
+.login_main .login_id_label {
+	margin-bottom: 0.55rem;
+}
+
+.login_main .pw_container {
+	margin: 0.55rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 아이디 / 비밀번호 찾기 링크 */
+#find_pw {
+	font-size: 13px;
+	color: #5882FA;
+}
+
+/* 회원가입 링크 컨테이너 */
+.login_container_main_footer {
+	border: 2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+	margin: 0 auto;
+	margin-top: 1.3rem;
+	float: center;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: #5858FA;
+}
+
+/* 로그인 버튼 */
+#login_btn {
+	background-color: #2ea44f;
+	border: none; 
+	display : block;
+	width: 100%;
+	text-align: center;
+	margin-top: 1.3rem;
+	font-weight: bold;
+	background-color: black;
+	opacity: 0.9;
+	display: block;
+}
+
+#login_msg {
+	margin-left: 10px;
+	font-weight: none;
+}

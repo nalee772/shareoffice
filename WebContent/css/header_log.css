@@ -1,0 +1,75 @@
+.header .head_main_log_nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.header .heade_main_log_nav_content:not(:first-child) {
+    margin-right: 26px;
+}
+
+.header .head_main_log_nav_profile {
+    margin-bottom: 30px;
+}
+
+.header .board_item {
+    margin-top: 6px;
+}
+
+.header .nav_tab_log {
+    font-weight: bold;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+details {
+    list-style-type: none;
+    position: fixed;
+}
+
+.head_main .user_item {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.head_main .user_item img {
+    display: inline-block;
+    width: 30px;
+
+}
+
+summary {
+    text-decoration: none;
+    outline: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.header .heade_main_log_nav_content .user_item_details_list {
+    padding: 3px;
+    margin-top: 5px;
+    width: 100px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #24292e;
+    opacity: 0.8;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.header .user_item_details_list .container_welcome {
+    font-weight: bold;
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.header .user_item_details_list .container_Signout {
+    border-top: 1px solid #9d9d9d;
+}
+
+.header .details_list_container .details_list_container_content {
+    padding: 5px;
+}

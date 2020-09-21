@@ -1,0 +1,30 @@
+.findPwPro_main {
+	margin: 180px 0;
+}
+
+.findPwPro_container_main {
+	border: 2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+    margin: 0 auto;   
+    padding : 20px;
+    font-weight:bold;
+    color:black;
+}
+
+.findPwPro_container_main p:not(:last-child) {
+	margin-bottom: 0.55rem;
+}
+
+.findPwPro_container_main_footer {
+	border: 2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+    margin: 0 auto;
+    margin-top: 1.3rem; 
+    float:center;
+    padding : 15px;
+    text-align: center;
+    font-weight:bold;
+    color:#5858FA;
+    }

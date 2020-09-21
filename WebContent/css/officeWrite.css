@@ -1,0 +1,45 @@
+.officeWrite_main{
+	margin: 180px 0;
+}
+
+
+.officeWrite_main tr{
+	width: 100%;
+}
+
+.officeWrite_main .col1{
+	width: 20%;
+	line-height: 24px;
+	font-size: 1rem;
+	background-color: #eeeeee;
+	font-weight: bold;
+}
+
+.officeWrite_main .col2{
+	width: 80%;
+	
+}
+
+.officeWrite_main .col2 textarea{
+	width: 100%;
+	border: 1px solid #f2f2f2;
+	outline: none;
+	overflow: hidden;
+	resize: none;
+	height: 24px;
+	font-size: 1rem;
+}
+
+.officeWrite_main .search_btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 56px;
+    height: 25px;
+    font-size: 14px;
+    margin-right: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+    outline: none;
+    float: right;
+}

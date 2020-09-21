@@ -1,0 +1,388 @@
+/* 전체 사이즈 */
+.booksSelectForm__main {
+    width: 100%;
+    margin: 180px 0px;
+    padding: 0px 25%;
+    color: black;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 검색창, 목록 틀 사이즈*/
+.booksSelectForm__main section {
+    width: 100%;
+}
+
+/* 검색 정보표시  */
+.booksSelectForm__main .booksSelectForm__main-section1-text {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.booksSelectForm__main .text_location {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.booksSelectForm__main .text_details {
+    font-size: 14px;
+    margin-left: 0.2rem;
+}
+/* 검색창 */
+.booksSelectForm__main .booksSelectForm__main-section1-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 40%;
+    height: 64px;
+    width: 100%;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    border: 2px solid #f2f2f2;
+    margin: auto;
+    padding: 12px;
+}
+
+.booksSelectForm__main .booksSelectForm__main-section1 {
+    margin-bottom: 50px;
+}
+
+.booksSelectForm__main .search_main_item {
+    height: auto;
+    box-sizing: border-box;
+    margin: 0px 15px;
+}
+
+.booksSelectForm__main .search_main_item_loc,
+.booksSelectForm__main .search_main_item_fromdate,
+.booksSelectForm__main .search_main_item_todate,
+.booksSelectForm__main .search_main_item_count {
+    border-right: 1px solid #f2f2f2;
+    width: 100%;
+}
+
+.booksSelectForm__main .search_main_item_title {
+    color: black;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.booksSelectForm__main .search_main_item_input {
+    width: 100%;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14px;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+.booksSelectForm__main .search_main_item_input::placeholder {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14px;
+}
+
+.booksSelectForm__main .search_main_item_submit {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 20%;
+}
+
+.booksSelectForm__main .search_main_submit {
+    border: none;
+    outline: none;
+    width: 70%;
+}
+
+/* 상세보기 - 선택한 오피스 */
+.booksSelectForm__main .booksSelectForm__main-section2 {
+    width: 100%;
+}
+
+.booksSelectForm__main .booksSelectForm__main-section2-details,
+.booksSelectForm__main .booksSelectForm__main-section3 {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 40px;
+    border: 2px solid #f2f2f2;
+    border-radius: 1.5rem;
+}
+
+.booksSelectForm__main .booksSelectForm-details {
+    width: 100%;
+    height: 100%;
+}
+
+.booksSelectForm__main .booksSelectForm__main-section2-details-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.booksSelectForm__main .booksSelectForm__main-section1-head:hover {
+    box-shadow: 0 0 0.5rem 0.001rem rgba(0, 0, 0, 0.12);
+}
+
+.booksSelectForm__main .booksSelectForm-details-image {
+    width: 35%;
+}
+
+.booksSelectForm__main .booksSelectForm-details-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.booksSelectForm__main .search-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 100%;
+    width: 65%;
+}
+
+.booksSelectForm__main .search-content p {
+    margin-bottom: 20px;
+}
+
+.booksSelectForm__main .booksSelectForm-details-text-header {
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.booksSelectForm__main .booksSelectForm-details-text-content {
+    width: 100%;
+    font-size: 16px;
+}
+
+/* 슬라이드 */
+.booksSelectForm__main .booksSelectForm__main-section3 {
+    width: 100%;
+    padding: 40px 20px;
+    height: auto;
+}
+
+.booksSelectForm__main-section3,
+.booksSelectForm__main-section3-details {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.booksSelectForm__main-section3 .details-border {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.booksSelectForm__main .booksSelectForm__main-section3-details .details-slider {
+    width: 80%;
+    align-items: flex-start;
+    background-color: #fafcff;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .details-slider
+    img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+
+/* 매장 세부사항 */
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .booksSelectForm__main-section3-details-content-text {
+    width: 100%;
+    padding: 40px 0;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .booksSelectForm__main-section3-details-content-text
+    .details-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .booksSelectForm__main-section3-details-content-text
+    .details-text:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.booksSelectForm__main .details-text .content1 p:not(:last-child),
+.booksSelectForm__main .details-text .content2 p:not(:last-child),
+.booksSelectForm__main .details-text .content3 p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .booksSelectForm__main-section3-details-content-text
+    .details-text
+    .details-text-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 50%;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .booksSelectForm__main-section3-details-content-text
+    .details-text
+    .details-text-content {
+    border-left: 2px solid #f2f2f2;
+    padding-left: 1.5rem;
+    width: 50%;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .booksSelectForm__main-section3-details-content-text
+    .details-text
+    p {
+    font-size: 1rem;
+}
+
+/* 유형선택 */
+.booksSelectForm__main
+    .booksSelectForm__main-section3
+    .booksSelectForm-details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3
+    .booksSelectForm-details:not(:last-child) {
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 40px;
+}
+
+.booksSelectForm__main .details-img {
+    width: 40%;
+}
+
+.booksSelectForm__main .booksSelectForm__main-section3-details .type-text {
+    margin-left: 10%;
+    height: 100%;
+    width: 60%;
+}
+
+.booksSelectForm__main .booksSelectForm__main-section3-details .type-text h1 {
+    font-weight: bold;
+    font-size: 34px;
+}
+.booksSelectForm__main .booksSelectForm-details-text-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.93rem;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .type-text
+    .type-pick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.booksSelectForm__main
+    .booksSelectForm__main-section3-details
+    .type-text
+    .type-pick:hover {
+    background-color: rgb(255, 56, 92);
+    box-shadow: 0 0 0.5rem 0.001rem rgba(0, 0, 0, 0.12);
+}
+
+.booksSelectForm__main .booksSelectForm__main-section3-details .type-text img {
+    width: 24px;
+    height: 24px;
+}
+
+.booksSelectForm__main .type-content-explanation {
+    margin: 0.94rem 0;
+}
+
+.booksSelectForm__main .type-text .type-content-head {
+    font-size: 1.16rem;
+    font-weight: bold;
+    margin-bottom: 0.94rem;
+}
+
+.booksSelectForm__main .type-content-option {
+    margin-bottom: 0.94rem;
+}
+
+.booksSelectForm__main .type-content-option-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.booksSelectForm__main .type-content-option-content .type-content-option-left,
+.booksSelectForm__main .type-content-option-content .type-content-option-right {
+    width: 50%;
+}
+
+.booksSelectForm__main .type-content-option-content .option-article {
+    display: flex;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+.booksSelectForm__main
+    .type-content-option-content
+    .option-article:not(:last-child) {
+    margin-bottom: 0.94rem;
+}
+
+.booksSelectForm__main .type-content-option-content .option-article img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.4rem;
+}
+
+.booksSelectForm__main .type-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 3.5rem;
+    height: 25px;
+    font-size: 14px;
+    outline: none;
+    float: right;
+}

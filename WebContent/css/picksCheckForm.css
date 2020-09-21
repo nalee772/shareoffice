@@ -1,0 +1,197 @@
+.booksCheckForm .booksCheckForm__main-header {
+    font-weight: bold;
+    font-size: 1.88rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+/* 전체 사이즈 */
+.booksCheckForm {
+    width: 100%;
+    margin: 180px 0px;
+    padding: 0px 25%;
+    color: black;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 검색창, 목록 틀 사이즈*/
+.booksCheckForm section {
+    width: 100%;
+}
+
+/* 검색 정보표시  */
+.booksCheckForm .booksCheckForm-section1-text {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.booksCheckForm .text_location {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.booksCheckForm .text_details {
+    font-size: 14px;
+    margin-left: 0.2rem;
+}
+/* 상세보기 - 선택한 오피스 */
+.booksCheckForm .booksCheckForm-section1 {
+    width: 100%;
+}
+
+.booksCheckForm .booksCheckForm-section1-details {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 40px;
+    border: 2px solid #f2f2f2;
+    border-radius: 1.5rem;
+}
+
+.booksCheckForm .booksCheckForm-details {
+    width: 100%;
+    height: 100%;
+}
+
+.booksCheckForm .booksCheckForm-section1-details-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.booksCheckForm .picksCheckForm-details-image {
+    width: 35%;
+}
+
+.booksCheckForm .picksCheckForm-details-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.booksCheckForm .search-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 100%;
+    width: 65%;
+}
+
+.booksCheckForm .search-content p {
+    margin-bottom: 20px;
+}
+
+.booksCheckForm .booksCheckForm-details-text-header {
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.booksCheckForm .booksCheckForm-details-text-content {
+    width: 100%;
+    font-size: 16px;
+}
+
+.booksCheckForm .picksCheckForm-section2 {
+    width: 100%;
+    padding: 40px 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 1.5rem;
+    height: auto;
+}
+
+/* 예약 확인창 */
+.booksCheckForm .picksCheckForm-section2 .picksCheckForm-details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.booksCheckForm .details-img,
+.booksCheckForm .books-Form-article .picksCheckForm-details-label {
+    width: 40%;
+}
+
+.booksCheckForm .picksCheckForm-section2-details .type-text {
+    margin-left: 10%;
+    height: 100%;
+    width: 60%;
+}
+
+.booksCheckForm .picksCheckForm-section2-details .type-text h1 {
+    font-weight: bold;
+    font-size: 34px;
+}
+.booksCheckForm .picksCheckForm-details-text-head {
+    padding-bottom: 0.93rem;
+    margin-bottom: 0.93rem;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.booksCheckForm .type-content-explanation {
+    margin: 0.94rem 0;
+}
+
+.booksCheckForm .type-text .type-content-head {
+    font-size: 1.16rem;
+    font-weight: bold;
+    margin-bottom: 0.94rem;
+}
+
+.booksCheckForm .type-content-option-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.booksCheckForm .type-content-option-content .type-content-option-left,
+.booksCheckForm .type-content-option-content .type-content-option-right {
+    width: 50%;
+}
+
+.booksCheckForm .type-content-option-content .option-article {
+    display: flex;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+.booksCheckForm .type-content-option-content .option-article:not(:last-child) {
+    margin-bottom: 0.94rem;
+}
+
+.booksCheckForm .type-content-option-content .option-article img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.4rem;
+}
+
+.booksCheckForm .books-Form-article {
+    display: flex;
+    width: 100%;
+    margin-top: 1.86rem;
+    text-align: center;
+}
+
+.booksCheckForm .books-btn-container {
+    float: right;
+    margin-top: 0.94rem;
+}
+
+.booksCheckForm .books-btn-container .books-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 3.5rem;
+    height: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.booksCheckForm .books-btn-container .books-btn:not(:last-child) {
+    margin-right: 0.36rem;
+}

@@ -1,0 +1,35 @@
+.officeContent_main{
+	margin: 180px 0;
+}
+
+
+.officeContent_main tr{
+	width: 100%;
+}
+
+.officeContent_main .col1{
+	width: 20%;
+	line-height: 24px;
+	font-size: 1rem;
+	background-color: #eeeeee;
+	font-weight: bold;
+}
+
+.officeContent_main .col2{
+	width: 80%;
+	line-height: 24px;
+}
+
+.officeContent_main .search_btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 56px;
+    height: 25px;
+    font-size: 14px;
+    margin-right: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+    outline: none;
+    float: right;
+}

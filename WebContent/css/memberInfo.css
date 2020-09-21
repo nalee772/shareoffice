@@ -1,0 +1,102 @@
+.minfo_main {
+	width: 100%;
+    margin: 180px 0px;
+    padding: 0px 25%;
+    color: black;
+}
+
+.minfo_main #member_info_table1{
+	width: 100%;
+	border: 2px solid #f2f2f2;
+	border-collapse: collapse;
+}
+
+.minfo_main #member_info_table1 th,
+.minfo_main #member_info_table1 td{
+	border: 1px solid #f2f2f2;
+	padding: 20px 13px;
+}
+
+.minfo_main .mem_theader{
+	text-align:center;
+	font-weight : bold;
+	background-color: #eeeeee;
+}
+
+.minfo_main #member_info_table1 .member_info_btn_box {
+	text-align: center;
+}
+
+.minfo_main #member_info_table1 .member_info_btn {
+	background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 56px;
+    height: 25px;
+    font-size: 14px;
+    margin-right: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+    outline: none;
+}
+
+.minfo_main #member_info_table1 .radio-btn input,
+.minfo_main #member_info_table1 .radio-btn label{
+	margin : 0 3px; 
+}
+
+.minfo_main .member_info_table2 {
+	margin-top: 1.3rem;
+	width: 100%;
+}
+
+.minfo_main #member_info_table2 {
+	width: 100%;
+	text-align: center;
+}
+
+.minfo_main #member_info_table2 th{
+	 background-color: #eeeeee;
+	 font-weight: bold;
+}
+
+.minfo_main #member_info_table2 th,
+.minfo_main #member_info_table2 td{
+	border: 1px solid #f2f2f2;
+	padding: 20px 13px;
+}
+
+.minfo_main .page {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.minfo_main .page .page_container {
+	
+	margin: 0 auto;
+	width: 100%;
+}
+
+.minfo_main .page .page_btn {
+	display : inline-block;
+    text-align: center;
+    margin: 0px 2%;
+    width: 100%;
+}
+
+.minfo_main .page .page_btn .page_box {
+	display : inline-block;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%; 
+    font-weight: bold;
+    width: 36px;
+    height: 100%;
+    line-height: 2rem;
+    margin: 0 2%;
+}
+
+.board_main .page .page_btn .page_box:hover {
+    box-shadow: 0 0 0.5rem 0.001rem rgba(0, 0, 0, 0.12);
+}

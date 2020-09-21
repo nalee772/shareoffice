@@ -1,0 +1,77 @@
+.board_update_main {
+    width: 100%;
+    margin: 180px 0px;
+    padding: 0px 25%;
+    color: black;
+}
+
+.board_update_main .board_update_header {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+.board_update_main .board_update_form_title_content{
+    padding-bottom: 26px;
+}
+
+.board_update_main .board_update_form_textarea {
+    border : none;
+    resize: none;
+    width: 100%;
+    outline: none;
+    overflow: hidden;
+    height: 40px;
+    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.board_update_main textarea::placeholder {
+    font-size: 30px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.board_update_main .board_update_form_title_content
+{
+    border-bottom: 3px solid #eeeeee;
+    margin-bottom: 26px;
+}
+
+.board_update_main .content_textarea{
+    height: 420px;
+}
+.board_update_main .board_update_form_content_content{
+    height: 420px;
+}
+.board_wrtie_main .board_update_form_file{
+    padding-top: 26px;
+}
+.board_update_main .board_update_form_btn{
+    padding-top: 26px;
+}
+
+.board_update_main .board_update_form_btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.board_update_main .dummy{
+    flex: 1;
+}
+
+.board_update_main .board_update_form_btn_btn {
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	width: 56px;
+	height: 25px;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+    margin-left: 10px;
+    outline: none;
+}

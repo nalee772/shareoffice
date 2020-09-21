@@ -1,0 +1,211 @@
+.booksForm_main .booksForm__main-header {
+    font-weight: bold;
+    font-size: 1.88rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+/* 전체 사이즈 */
+.booksForm_main {
+    width: 100%;
+    margin: 180px 0px;
+    padding: 0px 25%;
+    color: black;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 검색창, 목록 틀 사이즈*/
+.booksForm_main section {
+    width: 100%;
+}
+
+/* 검색 정보표시  */
+.booksForm_main .booksForm_main-section1-text {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.booksForm_main .text_location {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.booksForm_main .text_details {
+    font-size: 14px;
+    margin-left: 0.2rem;
+}
+/* 상세보기 - 선택한 오피스 */
+.booksForm_main .booksForm_main-section1 {
+    width: 100%;
+}
+
+.booksForm_main .booksForm_main-section1-details {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 40px;
+    border: 2px solid #f2f2f2;
+    border-radius: 1.5rem;
+}
+
+.booksForm_main .booksForm-details {
+    width: 100%;
+    height: 100%;
+}
+
+.booksForm_main .booksForm_main-section1-details-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.booksForm_main .booksForm-details-image {
+    width: 35%;
+}
+
+.booksForm_main .booksForm-details-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.booksForm_main .search-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 100%;
+    width: 65%;
+}
+
+.booksForm_main .search-content p {
+    margin-bottom: 20px;
+}
+
+.booksForm_main .booksForm-details-text-header {
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.booksForm_main .booksForm-details-text-content {
+    width: 100%;
+    font-size: 16px;
+}
+
+.booksForm_main .booksForm_main-section2 {
+    width: 100%;
+    padding: 40px 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 1.5rem;
+    height: auto;
+}
+
+/* 예약 확인창 */
+.booksForm_main .booksForm_main-section2 .booksForm-details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 1.86rem;
+}
+
+.booksForm_main .booksForm_main-section2 .booksForm-details:first-child {
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.booksForm_main .details-img,
+.booksForm_main .books-Form-article .booksForm-details-label {
+    width: 40%;
+}
+
+.booksForm_main .booksForm_main-section2-details .type-text {
+    margin-left: 10%;
+    height: 100%;
+    width: 60%;
+}
+
+.booksForm_main .booksForm_main-section2-details .type-text h1 {
+    font-weight: bold;
+    font-size: 34px;
+}
+.booksForm_main .booksForm-details-text-head {
+    padding-bottom: 0.93rem;
+    margin-bottom: 0.93rem;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.booksForm_main .type-content-explanation {
+    margin: 0.94rem 0;
+}
+
+.booksForm_main .type-text .type-content-head {
+    font-size: 1.16rem;
+    font-weight: bold;
+    margin-bottom: 0.94rem;
+}
+
+.booksForm_main .type-content-option-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.booksForm_main .type-content-option-content .type-content-option-left,
+.booksForm_main .type-content-option-content .type-content-option-right {
+    width: 50%;
+}
+
+.booksForm_main .type-content-option-content .option-article {
+    display: flex;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+.booksForm_main .type-content-option-content .option-article:not(:last-child) {
+    margin-bottom: 0.94rem;
+}
+
+.booksForm_main .type-content-option-content .option-article img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.4rem;
+}
+
+.booksForm_main .books-Form-article {
+    display: flex;
+    width: 100%;
+    margin-top: 1.86rem;
+    text-align: center;
+}
+
+.booksForm_main .books-Form-article .booksForm-details-label,
+.booksForm_main .books-Form-article .booksForm-details-value {
+    width: 50%;
+}
+
+.booksForm_main .books-Form-article .booksForm-details-label {
+    font-weight: bold;
+}
+
+.booksForm_main .books-btn-container {
+    float: right;
+    margin-top: 0.94rem;
+}
+
+.booksForm_main .books-btn-container .books-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 3.5rem;
+    height: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.booksForm_main .books-btn-container .books-btn:not(:last-child) {
+    margin-right: 0.36rem;
+}

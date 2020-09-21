@@ -1,0 +1,116 @@
+.member_main {
+    width: 100%;
+    margin: 180px 0px;
+    padding: 0px 25%;
+    color: black;
+}
+
+.member_main .madmin_list {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.member_main .madmin_list .col3_title {
+    text-align: left;
+}
+
+.member_main .madmin_list th {
+    border-top: 2px solid black;
+    font-weight: bold;
+    padding: 13px 0px;
+    background-color: #eeeeee;
+    line-height: 24px;
+}
+
+.member_main .madmin_list td {
+    box-sizing: boorder-box;
+    padding: 13px 0px;
+    line-height: 24px;
+}
+
+.member_main .madmin_list tr {
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+}
+
+.member_main .madmin_footer {
+    margin-top: 30px;
+}
+
+.member_main .madmin_footer input,
+.member_main .madmin_footer select {
+    border: none;
+    outline: none;
+
+}
+
+.member_main .search_bar,
+.member_main .madmin_footer_search_select {
+    border-bottom: 1px solid #f2f2f2;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.member_main .madmin_footer_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 26%;
+}
+
+.member_main .search_btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 56px;
+    height: 25px;
+    font-size: 14px;
+    margin-right: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+    outline: none;
+}
+
+.member_main table td a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* 페이징 넘버 */
+.member_main .page {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.member_main .page .page_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.member_main .page .page_btn {
+    text-align: center;
+    margin: 0px 2%;
+    width: 36px;
+}
+
+.member_main .page .page_btn .page_box {
+    border: 2px solid #f2f2f2;
+    border-radius: 50%; 
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    line-height: 2rem;
+}
+
+.member_main .page .page_btn .page_box:hover {
+    box-shadow: 0 0 0.5rem 0.001rem rgba(0, 0, 0, 0.12);
+}

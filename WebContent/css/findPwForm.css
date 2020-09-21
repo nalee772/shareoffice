@@ -1,0 +1,61 @@
+/*  로그인 폼*/
+.findPw_main{
+	margin: 180px 0;
+}
+
+
+/* 로그인창 컨테이너 (바깥 테두리부분) */
+.findPw_container_main {
+	border:2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+    margin: 0 auto; 
+    padding : 20px;
+    font-weight:bold;
+    color:black;
+  
+}
+
+.findPw_container_main input{
+	border:2px solid #f2f2f2;
+}
+
+.findPw_container_main-body{
+	width: 100%;
+}
+
+.findPw_container_main-body label{
+	margin-bottom: 0.55rem;
+}
+
+.findPw_container_main-body label:not(:first-child){
+	margin-top: 0.55rem;
+}
+
+
+/* 회원가입 링크 컨테이너 */
+.findPw_container_main_footer {
+	border:2px solid #f2f2f2;
+	border-radius: 5px;
+	width: 380px;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    float:center;
+    padding : 15px;
+    text-align: center;
+    font-weight:bold;
+    color:#5858FA;
+}
+
+/* 비밀번호찾기버튼 */
+#FindPw_btn {
+	background-color: #2ea44f;
+	border : none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight:bold;
+	margin-top: 1.3rem;;
+	background-color:black;
+	opacity:0.9;
+}

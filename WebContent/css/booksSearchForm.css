@@ -1,0 +1,215 @@
+/* 전체 사이즈 */
+.booksSearchForm__main {
+    width: 100%;
+    margin: 180px 0px;
+    padding: 0px 25%;
+    color: black;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 검색창, 목록 틀 사이즈*/
+.booksSearchForm__main section {
+    width: 100%;
+}
+
+/* 검색 정보표시  */
+.booksSearchForm__main .booksSearchForm__main-section1-text {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.booksSearchForm__main .text_location {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.booksSearchForm__main .text_details {
+    font-size: 14px;
+    margin-left: 0.2rem;
+}
+/* 검색창 */
+.booksSearchForm__main .booksSearchForm__main-section1-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 40%;
+    height: 64px;
+    width: 100%;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    border: 2px solid #f2f2f2;
+    margin: auto;
+    padding: 12px;
+}
+
+.booksSearchForm__main .booksSearchForm__main-section1 {
+    margin-bottom: 50px;
+}
+
+.booksSearchForm__main .search_main_item {
+    height: auto;
+    box-sizing: border-box;
+    margin: 0px 15px;
+}
+
+.booksSearchForm__main .search_main_item_loc,
+.booksSearchForm__main .search_main_item_fromdate,
+.booksSearchForm__main .search_main_item_todate,
+.booksSearchForm__main .search_main_item_count {
+    border-right: 1px solid #f2f2f2;
+    width: 100%;
+}
+
+.booksSearchForm__main .search_main_item_title {
+    color: black;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.booksSearchForm__main .search_main_item_input {
+    width: 100%;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14px;
+    height: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.booksSearchForm__main .search_main_item_input::placeholder {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14px;
+}
+
+.booksSearchForm__main .search_main_item_submit {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 20%;
+}
+
+.booksSearchForm__main .search_main_submit {
+    border: none;
+    outline: none;
+    width: 70%;
+}
+
+/* 목록 */
+.booksSearchForm__main-section2 {
+    width: 100%;
+}
+.booksSearchForm__main .booksSearchForm__main-section2-list {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 40px;
+    border: 2px solid #f2f2f2;
+    border-radius: 1.5rem;
+}
+
+.booksSearchForm__main .booksSearchForm-list {
+    width: 100%;
+    height: 100%;
+}
+
+.booksSearchForm__main .booksSearchForm__main-section2-list-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.booksSearchForm__main .booksSearchForm__main-section1-head:hover,
+.booksSearchForm__main .booksSearchForm__main-section2-list:hover {
+    box-shadow: 0 0 0.5rem 0.001rem rgba(0, 0, 0, 0.12);
+}
+
+.booksSearchForm__main .booksSearchForm-list-image {
+    width: 35%;
+}
+
+.booksSearchForm__main .booksSearchForm-list-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.booksSearchForm__main .booksSearchForm-list-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 10%;
+    height: 100%;
+    width: 65%;
+}
+
+.booksSearchForm__main .booksSearchForm-list-text p {
+    margin-bottom: 0.93rem;
+}
+
+.booksSearchForm__main .booksSearchForm-list-text-details {
+    display: flex;
+    width: 100%;
+}
+
+.booksSearchForm__main .list-text-details {
+    width: 50%;
+}
+
+.booksSearchForm__main .booksSearchForm-list-text-header {
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 0.93rem;
+}
+
+.booksSearchForm__main .list-text-details img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.4rem;
+}
+
+.booksSearchForm__main .list-text-details .details-option {
+    display: flex;
+    color: #7c7c7c;
+    line-height: 1rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* 페이지 */
+/* 페이징 넘버 */
+.booksSearchForm__main .page {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.booksSearchForm__main .page .page_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.booksSearchForm__main .page .page_btn {
+    text-align: center;
+    margin: 0px 2%;
+    width: 36px;
+}
+
+.booksSearchForm__main .page .page_btn .page_box {
+    border: 2px solid #f2f2f2;
+    border-radius: 50%; 
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    line-height: 2rem;
+}
+
+.booksSearchForm__main .page .page_btn .page_box:hover {
+    box-shadow: 0 0 0.5rem 0.001rem rgba(0, 0, 0, 0.12);
+}

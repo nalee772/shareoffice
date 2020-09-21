@@ -1,0 +1,37 @@
+.main .container_section1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "Noto Sans KR", sans-serif;
+	color: black;
+	padding: 200px 0px;
+	width: 100%;
+}
+
+.main .container_section1_text_main {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.main .main_text_1 {
+	margin-bottom: 50px;
+}
+
+.main .sub_text_1,
+.main .sub_text_2 {
+	margin-bottom: 50px;
+}
+
+.main .text_bold1 {
+	font-weight: bold;
+	color: red;
+}
+
+.main .text_bold2 {
+	font-weight: bold;
+	color: blue;
+}
+
+.main .container_section1_text_sub {
+	font-size: 30px;
+}
